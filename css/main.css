@@ -73,7 +73,7 @@ header h1{
             justify-content: center;
 
         }
-        article p{
+        .article-body p{
             color:gray;
             padding-left: 20%;
         }
@@ -84,9 +84,23 @@ header h1{
             display: flex;
             flex-direction: column;
             align-items: center;
+         
         }
 
+        .columns-nested{
+            color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .columns-nested p{
+            text-align: center;
+          
+        }
+        
         
         .columns-nested p{
             flex: 1;
+           
         }
